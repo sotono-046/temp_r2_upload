@@ -4,6 +4,15 @@
 - imgur にアップロードされたファイルを取得
 - cloudflareR2 にアップロードし、URL を置き換える
 
+# How to use
+
+- install uv
+  - [astral\-sh/uv: An extremely fast Python package and project manager, written in Rust\.](https://github.com/astral-sh/uv)
+- `uv sync`
+- make & set `.env`
+- `uv run temp-r2-upload`
+- Done！
+
 # .env
 
 ```env
